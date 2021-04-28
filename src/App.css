@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contCont{
+  text-align: center;
+  align-items: center;
+}
+.contItem{
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  width: 900px;
+  height: auto;
+  position: relative;
+  left: 20%;
+
+}
+.contItem img{
+  width: 350px;
+  height: auto;
+}
+.contPannel{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  width: 1000px;
+  position: relative;
+  left: 25%;
+
+}
+.contPannel img{
+  width: 100px;
+  height: auto;
+}
+.divImagePannel{
+  width: 300px;
+}
+.contP{
+  margin-top: 100px;
+}
+.addinpannel{
+  background-color: rgb(238, 49, 49);
+  color: white;
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.detail{
+  font-weight: bold;
+  color: rgb(235, 43, 43);
+}
+.contPannel h2{
+  color: rgb(235, 43, 43);
+  margin-top: 60px;
+}
+.contPannel h4, .contPannel h2{
+  text-align: left;
+  position: relative;
+  left: 50%;
+}
+.deleteItem{
+  position: relative;
+  left: 100%;
+  bottom: 80%;
+  color: red;
+  border: none;
+  background-color:inherit;
+  font-weight: bold;
+}
+.deleteItem img{
+  width: 30px;
+  height: 30px;
+}
+.itemText{
+  text-align: right;
+}
+.itemText h1{
+  color: rgb(235, 43, 43);
+  margin-bottom: 100px;
+}
+.price{
+  color:rgb(235, 43, 43) ;
+  position: relative;
+  top: 25%;
+}
